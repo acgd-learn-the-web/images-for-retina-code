@@ -5,36 +5,36 @@
 @viewport { width: device-width; scale: 1; }
 
 html {
-	box-sizing: border-box;
+  box-sizing: border-box;
 
-	font: normal 100%/1.5 sans-serif;
-	-moz-text-size-adjust: 100%;
-	-ms-text-size-adjust: 100%;
-	-webkit-text-size-adjust: 100%;
-	text-size-adjust: 100%;
+  font: normal 100%/1.5 sans-serif;
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
 }
 
 *, *:before, *:after {
-	box-sizing: inherit;
+  box-sizing: inherit;
 }
 
 figure {
-	margin: 0;
-	padding: 0;
-	float: left;
-	width: 30%;
+  margin: 0;
+  padding: 0;
+  float: left;
+  width: 30%;
 }
 
 figure img {
-	width: 100%;
+  width: 100%;
 }
 
 figcaption {
-	font: italic normal 1rem/1.5 Georgia,serif;
+  font: italic normal 1rem/1.5 Georgia,serif;
 }
 
 p {
-	float: right;
-	margin: 0 0 1.5rem;
-	width: 65%;
+  float: right;
+  margin: 0 0 1.5rem;
+  width: 65%;
 }
