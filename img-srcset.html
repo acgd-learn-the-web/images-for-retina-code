@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en-ca">
+<head>
+  <meta charset="utf-8">
+  <title>Img srcset</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link href="css/modules.css" rel="stylesheet">
+  <link href="css/grid.css" rel="stylesheet">
+</head>
+<body>
+
+  <div class="grid">
+    <div class="unit [ xs-1 s-1 m-1-2 l-1-2 ]">
+      <img
+        class="img-flex"
+        src="images/img-small.jpg"
+        srcset="images/img-large.jpg 960w, images/img-medium.jpg 608w, images/img-small.jpg 320w"
+        sizes="(min-width: 38em) 50vw, 100vw"
+        alt="">
+    </div>
+  </div>
+
+</body>
+</html>
